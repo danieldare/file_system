@@ -1,0 +1,35 @@
+.FileManager {
+  padding: 50px;
+  height: 100vh;
+}
+
+.Folder {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.Folder:hover {
+  background: rgba(238, 230, 156, 0.931);
+}
+
+.FileManager .img {
+  width: 50px;
+  height: 50px;
+}
+
+.folder_name {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 350;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.add_File_folder {
+  padding: 10px;
+  border: 1px solid red;
+  display: inline-block;
+  height: 100px;
+}
