@@ -5,7 +5,7 @@ const defaultFileSystem = {
       path: '/',
       size: 0,
       date: '2019-04-07',
-      creatorName: 'admin',
+      creator: 'admin',
       parentPath: null,
       parentID: null,
       children: [
@@ -20,7 +20,7 @@ const defaultFileSystem = {
     '9b6739960c1ac83251046da2c718019b': {
       type: 'FOLDER',
       name: 'apps',
-      creatorName: 'Oluwadare Daniel',
+      creator: 'Oluwadare Daniel',
       size: 223,
       date: '2019-04-29',
       parentID: '1382b6993e9f270cb1c29833be3f5750',
@@ -31,7 +31,7 @@ const defaultFileSystem = {
     '147d0ef33fe657ce53a83de6a630473d': {
       type: 'FOLDER',
       name: 'pictures',
-      creatorName: 'Oluwadare Daniel',
+      creator: 'Oluwadare Daniel',
       size: 23,
       date: '2019-04-29',
       parentID: '1382b6993e9f270cb1c29833be3f5750',
@@ -42,7 +42,7 @@ const defaultFileSystem = {
     a55cfa9e1bf87138edd25c4b1553104d: {
       type: 'FOLDER',
       name: 'videos',
-      creatorName: 'Oluwadare Daniel',
+      creator: 'Oluwadare Daniel',
       size: 0,
       date: '2019-04-29',
       parentID: '1382b6993e9f270cb1c29833be3f5750',
@@ -53,7 +53,7 @@ const defaultFileSystem = {
     '5f2b4d35489a8617e574060b19b7cad9': {
       type: 'FOLDER',
       name: 'docs',
-      creatorName: 'Oluwadare Daniel',
+      creator: 'Oluwadare Daniel',
       size: 233,
       date: '2019-04-29',
       parentID: '1382b6993e9f270cb1c29833be3f5750',
@@ -68,7 +68,7 @@ const defaultFileSystem = {
     ab7e413a3798155e37a9361140522e39: {
       type: 'FILE',
       name: 'a.pdf',
-      creatorName: 'Oluwadare Daniel',
+      creator: 'Oluwadare Daniel',
       size: 234,
       date: '2019-04-29',
       parentID: '1382b6993e9f270cb1c29833be3f5750',
@@ -78,7 +78,7 @@ const defaultFileSystem = {
     '891debd77d0bc40d30ff7d7e6c628e9f': {
       type: 'FILE',
       name: 'b.jpg',
-      creatorName: 'Oluwadare Daniel',
+      creator: 'Oluwadare Daniel',
       size: 234,
       date: '2019-04-29',
       parentID: '1382b6993e9f270cb1c29833be3f5750',
@@ -88,7 +88,7 @@ const defaultFileSystem = {
     '2d03459789f153918dfc0be413fe9987': {
       type: 'FOLDER',
       name: 'work',
-      creatorName: 'Oluwadare Daniel',
+      creator: 'Oluwadare Daniel',
       size: 200,
       date: '2019-04-29',
       parentID: '5f2b4d35489a8617e574060b19b7cad9',
@@ -102,7 +102,7 @@ const defaultFileSystem = {
     '8f7c5959dbb088c0aef8b145dbdf6e43': {
       type: 'FILE',
       name: 'c.pdf',
-      creatorName: 'Oluwadare Daniel',
+      creator: 'Oluwadare Daniel',
       size: 200,
       date: '2019-04-29',
       parentID: '5f2b4d35489a8617e574060b19b7cad9',
@@ -112,7 +112,7 @@ const defaultFileSystem = {
     '579c51eec02e43b4dfad314e05365fe4': {
       type: 'FILE',
       name: 'd.docx',
-      creatorName: 'Oluwadare Daniel',
+      creator: 'Oluwadare Daniel',
       size: 235,
       date: '2019-04-29',
       parentID: '5f2b4d35489a8617e574060b19b7cad9',
@@ -122,7 +122,7 @@ const defaultFileSystem = {
     b42eff45517edc2e543b3d2750bd08c3: {
       type: 'FILE',
       name: 'e.pdf',
-      creatorName: 'Oluwadare Daniel',
+      creator: 'Oluwadare Daniel',
       size: 0,
       date: '2019-04-29',
       parentID: '2d03459789f153918dfc0be413fe9987',
@@ -132,7 +132,7 @@ const defaultFileSystem = {
     '00ce12a7746322ce403e17992674f81b': {
       type: 'FILE',
       name: 'f.ts',
-      creatorName: 'Oluwadare Daniel',
+      creator: 'Oluwadare Daniel',
       size: 235,
       date: '2019-04-29',
       parentID: '2d03459789f153918dfc0be413fe9987',

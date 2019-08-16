@@ -3,13 +3,18 @@
   /* justify-content: space-between; */
   padding: 0 30px;
   height: 25px;
-  background: #ebba17;
+  background: #474747;
 }
 
 .Header p {
   color: white;
   line-height: 25px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
 }
 
 .Header .search_input {
@@ -23,6 +28,11 @@
   cursor: pointer;
   display: block;
   color: rgb(194, 102, 102);
+}
+
+.file_manager {
+  color: #ebba17 !important;
+  align-self: center;
 }
 
 .file_children {
@@ -43,4 +53,33 @@
 .file_children p:hover {
   cursor: pointer;
   background: rgb(149, 149, 149);
+}
+
+.navigation_bar {
+  background: rgb(226, 226, 226);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.search_input {
+  padding: 7px 10px;
+  width: 300px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.nav-btns {
+  align-self: center;
+}
+
+.nav-btns span {
+  font-size: 18px;
+}
+
+.icon {
+  width: 13px;
+  height: 13px;
 }

@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import FileList from "../FileList/FileList"
 import generatedefaultFileSystem from '../../utils/defaultFiles';
 import md5 from 'md5';
+import { connect } from "react-redux";
 
 class FileManager extends Component {
     state =  {
@@ -43,7 +44,7 @@ class FileManager extends Component {
   
 
     render() {
-        const { fileSystem } = this.state;
+        const { fileSystem } = this.props;
         return (
             <div>
             <Header /> 
@@ -51,7 +52,6 @@ class FileManager extends Component {
                 {this.showPathEntries(this.props.location, fileSystem).map(list => {
                     return (
                         <FileList  key={`${list.date}_${list.name}`} listInfo={list} />
-
                     )
                 })}
                 
@@ -62,4 +62,11 @@ class FileManager extends Component {
     }
 }
 
-export default FileManager;
+
+const mapStateToProps = (state) => {
+    return{
+        fileSystem: state.fileSystem
+    }
+}
+
+export default connect(mapStateToProps)(FileManager);

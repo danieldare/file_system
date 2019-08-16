@@ -9,7 +9,8 @@ function App() {
   return (
     <Provider store={store}>
     <BrowserRouter>
-        <Route
+    <div className="App">
+    <Route
           to="*"
           component={({ location, history }) => {
           return <FileManager
@@ -19,6 +20,7 @@ function App() {
           }
         }
         />
+    </div>
     </BrowserRouter>
     </Provider>
   );
